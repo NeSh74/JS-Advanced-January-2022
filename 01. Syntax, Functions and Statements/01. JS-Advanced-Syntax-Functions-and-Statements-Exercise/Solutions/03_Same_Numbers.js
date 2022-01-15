@@ -4,7 +4,7 @@ function sameNums(intNum) {
     let isSame = true;
 
     for (let i = 1; i < strNum.length; i++) {
-        result += parseInt(strNum[i]);
+        result += parseInt(strNum[i]);//result += +strNum[i];//result += Number(strNum[i]);
 
         if (strNum[i] != strNum[i - 1]) {
             isSame = false;
