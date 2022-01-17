@@ -1,24 +1,24 @@
 function evenPositionElent(strings) {
-    //I vers.
+    // I vers.
     // let result = '';
 
     // for (let i = 0; i < strings.length; i++) {
-    // if (i % 2 == 0) {
-    // result += strings[i];
-    // result += ' ';
+        // if (i % 2 == 0) {
+            // result += strings[i]; //result += string[i] + ' ';
+            // result += ' ';
+        // }
     // }
-    // }
-    //console.log(result);
+    // console.log(result);
 
-    //II vers.
+    // II vers.
     // let result = '';
-    //for (let i = 0; i < strings.length; i += 2) {
+    // for (let i = 0; i < strings.length; i += 2) {
     // result += strings[i];
     // result += ' ';
     // }
     // console.log(result);
 
-    //III vers.
+    // III vers.
 
     let result = [];
 
