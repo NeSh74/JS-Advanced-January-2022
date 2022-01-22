@@ -1,12 +1,21 @@
 function sortingNumbers(arr) {
-    arr = arr.sort((a, b) => {
-        return a - b;
-    })
-    const result = [];
-    const count = Math.floor(arr.length / 2);
+    // arr = arr.sort((a, b) => {
+    // return a - b;
+    // })
+    // const result = [];
+    // const count = Math.floor(arr.length / 2);
 
-    while (arr.length != 0) {
-        result.push(arr.shift(), arr.pop());
+    // while (arr.length != 0) {
+    // result.push(arr.shift(), arr.pop());
+    // }
+    // return result;
+
+    let result = [];
+    arr = arr.sort((a, b) => a - b);
+
+    while (arr.length !== 0) {
+        result.push(arr.shift());
+        result.push(arr.pop());
     }
     return result;
 }
