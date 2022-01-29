@@ -1,11 +1,10 @@
 function solve() {
 
-  const table = document.querySelector('table.table tbody')
+  const table = document.querySelector('table.table tbody');
+
   const [input, output] = Array.from(document.querySelectorAll('textarea'));
-
   const [generateBtn, buyBtn] = Array.from(document.querySelectorAll('button'));
-  console.log(generateBtn, buyBtn);
-
+  
   generateBtn.addEventListener('click', generate);
   buyBtn.addEventListener('click', buy);
 
