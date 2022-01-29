@@ -40,3 +40,28 @@ function deleteByEmail() {
     //otherwise print 'Not found'
     document.getElementById('result').textContent = rows.length > 0 ? 'Deleted.' : 'Not found.';
 }
+
+// function deleteByEmail() {
+    // let emailInputElement = document.querySelector('input[name="email"]');
+    // let emailCellElement = document.querySelectorAll('tr td:nth-of-type(2)');
+    // let resultElement = document.getElementById('result');
+
+    // let emailElements = Array.from(emailCellElement);
+    // let targetElement = emailElements.find(x => x.textContent == emailInputElement.value);
+
+    // if (targetElement) {
+        // targetElement.parentNode.remove();
+        // resultElement.textContent = 'Deleted.';
+    // } else {
+        // resultElement.textContent = 'Not found.';
+    // }
+// }
+//Applies for NodeList and HTMLCollection
+//for(const email of emailCellElement){
+
+//}
+//Applies only for NodeList
+//emailCellElement.forEach(0)
+
+//The old way of deleting
+//targertElement.parentNode.removeChild(targertElement);

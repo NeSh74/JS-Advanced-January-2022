@@ -25,3 +25,22 @@ function addItem() {
         parent.remove();
     }
 }
+
+// function addItem() {
+    // let itemsElement = document.getElementById('items');
+    // let inputElement = document.getElementById('newItemText');
+
+    // let liElement = document.createElement('li');
+    // liElement.textContent = inputElement.value;
+    // inputElement.value = '';
+
+    // let deleteElemnt = document.createElement('a');
+    // deleteElemnt.href = '#';
+    // deleteElemnt.textContent = '[Delete]';
+    // deleteElemnt.addEventListener('click', e => {
+        // e.currentTarget.parentElement.remove();
+    // })
+
+    // liElement.appendChild(deleteElemnt);
+    // itemsElement.appendChild(liElement);
+// }
