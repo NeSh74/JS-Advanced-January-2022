@@ -1,5 +1,5 @@
 function getFibonator() {
-    let n1 = 0;
+    let n1 = 0; 
     let n2 = 1;
 
     function getNumber() {
